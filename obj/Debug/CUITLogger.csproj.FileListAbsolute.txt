@@ -1,0 +1,12 @@
+C:\Automation\Mods_Github\CUITLogger\bin\Debug\phantomjs-license.txt
+C:\Automation\Mods_Github\CUITLogger\bin\Debug\Externals\PhantomJS.exe
+C:\Automation\Mods_Github\CUITLogger\bin\Debug\Configs\QTAgent32.exe.config
+C:\Automation\Mods_Github\CUITLogger\bin\Debug\Externals\LoggerConfig.xml
+C:\Automation\Mods_Github\CUITLogger\bin\Debug\CUITLogger.xml
+C:\Automation\Mods_Github\CUITLogger\bin\Debug\CUITLogger.dll
+C:\Automation\Mods_Github\CUITLogger\bin\Debug\CUITLogger.pdb
+C:\Automation\Mods_Github\CUITLogger\bin\Debug\WebDriver.dll
+C:\Automation\Mods_Github\CUITLogger\bin\Debug\WebDriver.xml
+C:\Automation\Mods_Github\CUITLogger\obj\Debug\CUITLogger.csprojResolveAssemblyReference.cache
+C:\Automation\Mods_Github\CUITLogger\obj\Debug\CUITLogger.dll
+C:\Automation\Mods_Github\CUITLogger\obj\Debug\CUITLogger.pdb

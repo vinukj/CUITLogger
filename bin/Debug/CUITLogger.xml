@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CUITLogger</name>
+    </assembly>
+    <members>
+        <member name="T:CUITLogger.UiMap">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CUITLogger.UiMap.RecordedMethod1">
+            <summary>
+            RecordedMethod1
+            </summary>
+        </member>
+        <member name="T:CUITLogger.CodedUiTest1">
+            <summary>
+            Summary description for CodedUITest1
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:CUITLogger.CuitLogger" -->
+        <member name="M:CUITLogger.CuitLogger.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:CUITLogger.CuitLogger"/> class.
+            </summary>
+        </member>
+        <member name="M:CUITLogger.CuitLogger.SplunkLogPath">
+            <summary>
+            Reading the loggerconfig to set the splunk path.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CUITLogger.CuitLogger.Logger">
+            <summary>
+            Prerequisite  - .
+            </summary>
+        </member>
+        <member name="M:CUITLogger.CuitLogger.LogFilePath">
+            <summary>
+            Logs the file path.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CUITLogger.CodedUiTest1.#ctor">
+            <summary>
+            This is an example of the usage of the CUITlogger. first of all CodedUITest1 :CUITLogger  , then set the deployment paths. then use  this.Logger(); in the test cleanup
+            </summary>
+        </member>
+        <member name="P:CUITLogger.CodedUiTest1.UiMap">
+             <summary>
+            Gets or sets the test context which provides
+            information about and functionality for the current test run.
+            </summary>
+        </member>
+        <member name="T:CUITLogger.Report.SplunkXmlTestRunReport">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CUITLogger.TestCaseInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CUITLogger.TestCaseInfo.Owner">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CUITLogger.Logger">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CUITLogger.Logger.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

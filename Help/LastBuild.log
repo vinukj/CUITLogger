@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\vjagtap\Box Sync\Aptean CoE\Automation\ToolKit\ApteanLogger\ApteanLogger\Loggerhelp.shfbproj" started="2/23/2015 12:20:20 PM">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+   C:\Users\vjagtap\Box Sync\Aptean CoE\Automation\ToolKit\ApteanLogger\ApteanLogger
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2015.1.12.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\vjagtap\Box Sync\Aptean CoE\Automation\ToolKit\ApteanLogger\ApteanLogger\bin\Debug\ApteanLogger.dll
+    Found assembly &#39;C:\Users\vjagtap\Box Sync\Aptean CoE\Automation\ToolKit\ApteanLogger\ApteanLogger\bin\Debug\ApteanLogger.dll&#39;
+Source: C:\Users\vjagtap\Box Sync\Aptean CoE\Automation\ToolKit\ApteanLogger\ApteanLogger\bin\Debug\ApteanLogger.XML
+
+References to include (excluding framework assemblies):
+    ApteanLogger
+    WebDriver
+
+Copying XML comments files
+    C:\Users\vjagtap\Box Sync\Aptean CoE\Automation\ToolKit\ApteanLogger\ApteanLogger\bin\Debug\ApteanLogger.XML -&gt; C:\Users\vjagtap\Box Sync\Aptean CoE\Automation\ToolKit\ApteanLogger\ApteanLogger\Help\Working\ApteanLogger.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.0060
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Build started 2/23/2015 12:20:21 PM.
+Project &quot;C:\Users\vjagtap\Box Sync\Aptean CoE\Automation\ToolKit\ApteanLogger\ApteanLogger\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2015.1.12.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loaded 1 assemblies for reflection and 3 dependency assemblies.
+MRefBuilder : error : Unresolved assembly reference: Microsoft.VisualStudio.TestTools.UITesting (Microsoft.VisualStudio.TestTools.UITesting, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by ApteanLogger [C:\Users\vjagtap\Box Sync\Aptean CoE\Automation\ToolKit\ApteanLogger\ApteanLogger\Help\Working\GenerateRefInfo.proj]
+    Last step completed in 00:00:02.8463
+</buildStep>
+<buildStep step="Failed">
+
+SHFB: Error BE0043: Unexpected error detected in last build step.  See output above for details.
+   at SandcastleBuilder.Utils.BuildEngine.BuildProcess.RunProcess(String fileToRun, String args)
+   at SandcastleBuilder.Utils.BuildEngine.BuildProcess.Build()
+
+</buildStep>
+</shfbBuild>

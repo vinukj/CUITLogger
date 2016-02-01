@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AppConfig>
+  <AppSettings>
+    
+    <!--Set any network or local path for splunk server to pick it up-->
+    <Data key="SplunkLogLocation" value="null"></Data>
+
+  </AppSettings>
+</AppConfig>
